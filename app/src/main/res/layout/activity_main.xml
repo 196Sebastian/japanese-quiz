@@ -12,12 +12,17 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Quiz App!"
-        android:textSize="25sp"
+        android:text="Japanese Phrases Quiz"
+        android:textSize="30sp"
         android:layout_marginBottom="30dp"
         android:textStyle="bold"
         android:gravity="center"
-        android:textColor="@color/white" />
+        android:textColor="#8bf6ff"
+        android:fontFamily="@font/retroprime"
+        android:shadowColor="@color/black"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"/>
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
@@ -37,17 +42,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Welcome"
+                android:fontFamily="@font/retroprime"
                 android:textSize="30sp"
                 android:textStyle="bold"
                 android:gravity="center"
-                android:textColor="#363A43" />
+                android:textColor="#ee98fb" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Please enter your name."
                 android:layout_marginTop="16dp"
-                android:textSize="12dp"
+                android:fontFamily="@font/retroprime"
+                android:textSize="9sp"
                 android:gravity="center"
                 android:textColor="#7A8089" />
 
@@ -60,8 +67,9 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="name"
+                    android:hint="e.g. Erik"
                     android:inputType="text|textCapWords"
+                    android:fontFamily="@font/retroprime"
                     android:textColor="#363A43"
                     android:textColorHint="#7A8089" >
 
@@ -74,10 +82,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:background="@color/design_default_color_background"
+                android:backgroundTint="#ee98fb"
                 android:text="Start"
+                android:fontFamily="@font/retroprime"
                 android:textColor="@color/white"
-                android:textSize="18sp" />
+                android:textSize="10sp" />
 
 
 
