@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/corre/AndroidStudioProjects/JapanesePhrasesQuiz/app/src/main/res/drawable/defult_option_border_bg.xml" value="0.2703125" />
         <entry key="..\:/Users/corre/AndroidStudioProjects/JapanesePhrasesQuiz/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
         <entry key="..\:/Users/corre/AndroidStudioProjects/JapanesePhrasesQuiz/app/src/main/res/font/font.xml" value="0.284375" />
         <entry key="..\:/Users/corre/AndroidStudioProjects/JapanesePhrasesQuiz/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
