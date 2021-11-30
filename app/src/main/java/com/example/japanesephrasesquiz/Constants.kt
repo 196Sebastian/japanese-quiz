@@ -2,6 +2,10 @@ package com.example.japanesephrasesquiz
 
 object Constants {
 
+    const val USER_NAME : String = "user name"
+    const val TOTAL_QUESTIONS : String = "total questions"
+    const val CORRECT_ANSWERS : String = "correct answers"
+
     fun getQuestions():ArrayList<Question>{
         val questionList = ArrayList<Question>()
 
