@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/corre/AndroidStudioProjects/JapanesePhrasesQuiz/app/src/main/res/drawable/correct_option_border_bg.xml" value="0.2703125" />
+        <entry key="..\:/Users/corre/AndroidStudioProjects/JapanesePhrasesQuiz/app/src/main/res/drawable/default_option_border_bg.xml" value="0.2703125" />
         <entry key="..\:/Users/corre/AndroidStudioProjects/JapanesePhrasesQuiz/app/src/main/res/drawable/defult_option_border_bg.xml" value="0.2703125" />
         <entry key="..\:/Users/corre/AndroidStudioProjects/JapanesePhrasesQuiz/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
         <entry key="..\:/Users/corre/AndroidStudioProjects/JapanesePhrasesQuiz/app/src/main/res/drawable/selected_option_border_bg.xml" value="0.2703125" />
