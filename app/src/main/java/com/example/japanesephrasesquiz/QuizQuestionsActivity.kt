@@ -39,6 +39,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz_questions)
 
+
         mUserName = intent.getStringExtra(Constants.USER_NAME)
 
         progressBar = findViewById(R.id.progressBar)
@@ -88,6 +89,8 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
     private fun defaultOptionView(){
         var options = ArrayList<TextView>()
 
+        btnSubmit?.isEnabled = false
+
         tvOptionOne?.let {
             options.add(0, it)
         }
@@ -110,6 +113,8 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun selectedOptionView(tv:TextView, selectedOptionNum: Int){
         defaultOptionView()
+
+        btnSubmit?.isEnabled = true
 
         mSelectedOptionPosition = selectedOptionNum
 
