@@ -1,5 +1,9 @@
 package com.example.japanesephrasesquiz
 
+import android.widget.EditText
+import android.widget.TextView
+import org.w3c.dom.Text
+
 object Constants {
 
     const val USER_NAME : String = "user name"

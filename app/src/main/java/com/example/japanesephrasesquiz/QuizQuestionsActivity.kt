@@ -1,15 +1,20 @@
 package com.example.japanesephrasesquiz
 
+import android.content.Context
 import android.content.Intent
 import android.graphics.Color
 import android.graphics.Typeface
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.*
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
+import androidx.core.content.res.ResourcesCompat
+import com.google.android.material.resources.TextAppearance
 
 class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -52,6 +57,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
         tvOptionThree?.setOnClickListener(this)
         tvOptionFour?.setOnClickListener(this)
         btnSubmit?.setOnClickListener(this)
+
 
         mQuestionsList = Constants.getQuestions()
         setQuestion()
@@ -97,7 +103,6 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
         for(option in options){
             option.setTextColor(Color.parseColor("#7A8089"))
-            option.typeface = Typeface.DEFAULT
             option.background = ContextCompat.getDrawable(this, R.drawable.default_option_border_bg)
         }
 
