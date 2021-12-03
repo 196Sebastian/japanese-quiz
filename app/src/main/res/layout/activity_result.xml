@@ -7,7 +7,7 @@
     android:background="@drawable/ic_background"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:padding="20dp"
+    android:padding="70dp"
     tools:context=".ResultActivity">
 
     <TextView
@@ -17,7 +17,8 @@
         android:layout_marginTop="20dp"
         android:text="Result"
         android:textColor="@android:color/white"
-        android:textSize="20sp"
+        android:fontFamily="@font/retroprime"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
     <ImageView
@@ -34,7 +35,8 @@
         android:layout_marginTop="20dp"
         android:text="Hey, Congratulation!"
         android:textColor="@android:color/white"
-        android:textSize="25sp"
+        android:fontFamily="@font/retroprime"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <TextView
@@ -42,9 +44,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:textColor="@android:color/white"
-        android:textSize="22sp"
+        android:textColor="#8bf6ff"
+        android:textSize="18sp"
         android:textStyle="bold"
+        android:fontFamily="@font/retroprime"
         tools:text="Username" />
 
     <TextView
@@ -53,7 +56,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textColor="@android:color/secondary_text_dark"
-        android:textSize="20sp"
+        android:fontFamily="@font/retroprime"
+        android:textSize="10sp"
         android:text="Your score is 9 out of 10" />
 
     
@@ -62,9 +66,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="#ee98fb"
         android:text="FINISH"
-        android:textColor="@color/design_default_color_primary"
+        android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold" />
 
