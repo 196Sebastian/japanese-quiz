@@ -16,3 +16,6 @@
 
 <img src="https://user-images.githubusercontent.com/87108242/153098782-9d0eb519-9791-44c5-947e-d818dcf67f66.png" width="600" height="600">
 
+# 🔔 Contact Me!
+
+  [📝 Portfolio](https://sebastiancorrea.netlify.app/) • [💼 Linkedin](https://www.linkedin.com/in/sebastian-correa-b6858b177/) • [🐤 Twitter](https://twitter.com/196Sebastian)
