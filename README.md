@@ -10,6 +10,9 @@
 <img src="https://user-images.githubusercontent.com/87108242/153098498-96b5e46b-2c59-485e-b23f-6a22c1523cd9.png" width="600" height="600">
 
 # 👨‍💻 The Building Process
+- For this application the status bar is disabled.
+- Showing users their progress with a progress bar updating every time they click the next question button.
+- Sending data via intent to get the users score to display it on the end screen. 
 
 <img src="https://user-images.githubusercontent.com/87108242/153098782-9d0eb519-9791-44c5-947e-d818dcf67f66.png" width="600" height="600">
 
